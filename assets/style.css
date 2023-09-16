@@ -1,3 +1,61 @@
+/* Variables */
+
+:root {
+--darktheme: #19334d;
+--lighttheme: #9fbfdf;
+}
+
+/* Universal styles */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header and Nav styles */
+
 h1 {
-    color: red;
+    background-color: var(--lighttheme);
+    font-size: 200%;
+    color: var(--darktheme);
+    padding: 5px 5px 5px 50px;
+}
+
+header {
+    background-color: var(--darktheme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    padding: 15px 0;
+    margin-right: 55px;
+}
+
+li {
+    display: inline-flex;
+    position: relative;
+}
+
+a {
+    font-size: 130%;
+    color:var(--lighttheme);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+/* Hero style */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 80.797px;
+    width: 100%;
+    color: var(--darktheme)
+    
 }
