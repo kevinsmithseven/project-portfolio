@@ -8,7 +8,6 @@
 /* Universal styles */
 
 * {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -77,26 +76,54 @@ section img {
 
 /* Main section_____________________________________________ */
 
+main {
+    background-color: rgba(225, 226, 226, 0.973);
+}
+
+.content {
+    padding-top: 40px;
+}
 /* About me article */
 
 .content #aboutme {
     display: flex;
-}
+    height: 150px;
+    }
 
 article #aboutme {
-flex-direction: row;
-margin-top: 40px;
+    flex-direction: row;
+    margin-top: 50px;
 }
 
 article h3 {
     font-size: 230%;
     color: var(--darktheme);
     border-right: 5px solid var(--darktheme);
-    height: 150px;
-    padding: 
+    padding: 0 0 0 170px;
 }
 
 article p {
     color: var(--darktheme);
     font-size: 110%;
+    padding: 0px 100px 0 70px;
 }
+
+/* Work article */
+
+.content #work {
+    display: flex;
+    height: 750px;
+    padding-top: 50px;
+}
+
+article #work {
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+#work h3 {
+    padding-left: 182px;
+}
+
+
+
