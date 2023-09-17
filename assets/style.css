@@ -125,5 +125,22 @@ article #work {
     padding-left: 182px;
 }
 
+/* Contact Me article */
+
+.content #contactme {
+    display: flex;
+    height: 150px;
+    padding-top: 50px;
+}
+
+article #contactme {
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+#contactme h3 {
+    padding-left: 182px;
+}
+
 
 
