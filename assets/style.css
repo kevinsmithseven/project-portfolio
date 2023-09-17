@@ -52,6 +52,7 @@ a {
 /* Subtitle Section */
 
 .subtitle-box {
+    display: flex;
     position: relative;
 }
 
@@ -72,4 +73,30 @@ h2 {
 section img {
     height: 80.797px;
     width: 100%;
+}
+
+/* Main section_____________________________________________ */
+
+/* About me article */
+
+.content #aboutme {
+    display: flex;
+}
+
+article #aboutme {
+flex-direction: row;
+margin-top: 40px;
+}
+
+article h3 {
+    font-size: 230%;
+    color: var(--darktheme);
+    border-right: 5px solid var(--darktheme);
+    height: 150px;
+    padding: 
+}
+
+article p {
+    color: var(--darktheme);
+    font-size: 110%;
 }
