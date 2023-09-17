@@ -1,8 +1,8 @@
 /* Variables */
 
 :root {
---darktheme: #19334d;
---lighttheme: #9fbfdf;
+    --darktheme: #19334d;
+    --lighttheme: #9fbfdf;
 }
 
 /* Universal styles */
@@ -16,9 +16,9 @@
 
 h1 {
     background-color: var(--lighttheme);
-    font-size: 200%;
+    font-size: 230%;
     color: var(--darktheme);
-    padding: 5px 5px 5px 50px;
+    padding: 5px 5px 5px 66px;
 }
 
 header {
@@ -41,7 +41,7 @@ li {
 
 a {
     font-size: 130%;
-    color:var(--lighttheme);
+    color: var(--lighttheme);
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.08em;
@@ -49,13 +49,27 @@ a {
     padding: 15px 15px;
 }
 
-/* Hero style */
+/* Subtitle Section */
 
-section {
-    display: flex;
-    justify-content: space-between;
+.subtitle-box {
+    position: relative;
+}
+
+.subtitle-box .subtitle-text {
+    position: absolute;
+    top: 21%;
+    left: 82%;
+    color: var(--lighttheme)
+}
+
+h2 {
+    background-color: var(--lighttheme);
+    color: var(--darktheme);
+    font-size: 230%;
+    padding: 5px 66px 5px 5px;
+}
+
+section img {
     height: 80.797px;
     width: 100%;
-    color: var(--darktheme)
-    
 }
