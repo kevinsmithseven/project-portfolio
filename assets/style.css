@@ -83,12 +83,13 @@ main {
 .content {
     padding-top: 40px;
 }
+
 /* About me article */
 
 .content #aboutme {
     display: flex;
     height: 150px;
-    }
+}
 
 article #aboutme {
     flex-direction: row;
@@ -116,10 +117,55 @@ article p {
     padding-top: 50px;
 }
 
-article #work {
-    flex-direction: row;
-    padding-top: 50px;
+#main-card {
+    border: 8px solid var(--lighttheme);
+    margin: 0px 70px 306px 70px;
+    width: 100%;
+    background: url(./digital-marketing-meeting.jpg);
+    background-size: cover;
 }
+
+
+
+.small-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#card-1 img {
+    border: 8px solid var(--lighttheme);
+    margin: 0px 70px 306px 70px;
+    width: 25%;
+    }
+
+#card-2 {
+    border: 8px solid var(--lighttheme);
+    margin: 0px 70px 306px 70px;
+    width: 25%;
+    background: url(./leonard-cotte-c1Jp-fo53U8-unsplash.png);
+    background-size: cover;
+}
+
+#card-3 {
+    border: 8px solid var(--lighttheme);
+    margin: 0px 70px 306px 70px;
+    width: 25%;
+    background: url(./pawel-czerwinski-prMn9KINLtI-unsplash.png);
+    background-size: cover;
+}
+
+#card-4 {
+    border: 8px solid var(--lighttheme);
+    margin: 0px 70px 306px 70px;
+    width: 25%;
+    background: url(./v2osk-1Z2niiBPg5A-unsplash.png);
+    background-size: cover;
+}
+
+.small-cards img {
+    width: 100px;
+}
+
 
 #work h3 {
     padding-left: 182px;
@@ -139,8 +185,5 @@ article #contactme {
 }
 
 #contactme h3 {
-    padding-left: 182px;
+    padding-left: 137px;
 }
-
-
-
