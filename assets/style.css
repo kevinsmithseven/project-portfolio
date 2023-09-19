@@ -69,7 +69,6 @@ a {
 }
 
 .subtitle-box .subtitle-text {
-    /* position: absolute; */
     flex-wrap: wrap;
     justify-content: flex-end;
     top: 21%;
@@ -129,7 +128,7 @@ h3 {
 article p {
     color: var(--darktheme);
     font-size: 130%;
-    padding: 0px 100px 0 70px;    
+    padding: 0px 100px 0 70px;
 }
 
 /* Work article */
@@ -208,13 +207,6 @@ article p {
     margin: auto;
     min-height: 40vh;
 }
-
-
-
-
-
-
-
 
 /* Contact Me article */
 
