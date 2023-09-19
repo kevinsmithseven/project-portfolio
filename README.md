@@ -7,9 +7,20 @@ This website was created to highlight my portfolio as a new Software Developer. 
 
 ## Usage
 
-Below is an image of the refactored website. Users will be able to click on each of the three links in the navigation area at the top and right of the page to be able to navigate to the details for each section below.
-    
-![Screenshot of Horiseon Website](/assets/images/Horiseon%20Website%20Fullscreen%20Capture.png)
+Users will be able to click on each of the links in the navigation area at the top and right of the page to be able to navigate to the details for each section below. If a use clicks on the top of the large card at the top of the "Work" section labelled "Horiseon Refactor", the user will be taken to the deployed site for that project.
+
+At the bottom of the page, the user can click on each of the links. Currently the phone number link is not functional. The email link will open a form to send me an email. The Github link will send the user to my github page.
+
+The website is designed to be responsive a mobile view as well, although this still needs to be optimized.
+
+Below is an image of my Portfolio Website in large screen view:
+  
+![Screenshot of Portfolio Website](/assets/Kevin%20Smith%20Portfoilo%20Project%20Fullscreen%20Capture%20-%20Large%20Screen.png)
+
+Below is an image of my Portfolio Website in small screen view:
+  
+![Screenshot of Portfolio Website](/assets/Kevin%20Smith%20Portfoilo%20Project%20Fullscreen%20Capture%20-%20Mobile%20Screen.png)
+
 
 ## Credits
 

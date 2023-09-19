@@ -28,6 +28,11 @@ header {
     align-items: center;
 }
 
+header section img {
+    height: 80.797px;
+    width: 70px;
+}
+
 nav {
     position: relative;
     padding: 15px 0;
@@ -79,7 +84,6 @@ h2 {
     padding: 5px 66px 5px 5px;
     height: 80.797px;
     text-shadow: 1px 1px 1px white
-
 }
 
 section img {
@@ -291,7 +295,8 @@ article ul {
 
     .main-card {
         flex-direction: column;
-        width: 100%;
+        width: 75%;
+        align-items: center;
 
     }
 }
@@ -300,7 +305,8 @@ article ul {
 
     .small-card {
         flex-direction: column;
-        width: 100%;
+        width: 75%;
+        align-items: center;
 
     }
 }
