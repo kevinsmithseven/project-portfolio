@@ -18,6 +18,7 @@ h1 {
     font-size: 230%;
     color: var(--darktheme);
     padding: 5px 5px 5px 66px;
+    text-shadow: 1px 1px 1px white
 }
 
 header {
@@ -39,13 +40,14 @@ li {
 }
 
 a {
-    font-size: 130%;
+    font-size: 135%;
     color: var(--lighttheme);
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.08em;
     display: inline-block;
     padding: 15px 15px;
+    text-shadow: 2px 2px 2px var(--darktheme);
 }
 
 .link:hover {
@@ -76,6 +78,8 @@ h2 {
     font-size: 150%;
     padding: 5px 66px 5px 5px;
     height: 80.797px;
+    text-shadow: 1px 1px 1px white
+
 }
 
 section img {
@@ -115,12 +119,13 @@ h3 {
     text-align: right;
     align-items: center;
     justify-content: flex-end;
+    text-shadow: 2px 2px 2px var(--lighttheme);
 }
 
 article p {
     color: var(--darktheme);
-    font-size: 120%;
-    padding: 0px 100px 0 70px;
+    font-size: 130%;
+    padding: 0px 100px 0 70px;    
 }
 
 /* Work article */
@@ -133,6 +138,7 @@ article p {
     min-height: 40vh;
     margin: 50px;
     position: relative;
+    box-shadow: 2px 2px 2px var(--darktheme);
 }
 
 #maincardlink {
@@ -160,6 +166,7 @@ article p {
     border: 5px solid var(--lighttheme);
     min-height: 20vh;
     margin: 50px;
+    box-shadow: 2px 2px 2px var(--darktheme);
 }
 
 #small-card2 {
@@ -169,6 +176,7 @@ article p {
     border: 5px solid var(--lighttheme);
     min-height: 20vh;
     margin: 50px;
+    box-shadow: 2px 2px 2px var(--darktheme);
 }
 
 #small-card3 {
@@ -178,6 +186,7 @@ article p {
     border: 5px solid var(--lighttheme);
     min-height: 20vh;
     margin: 50px;
+    box-shadow: 2px 2px 2px var(--darktheme);
 }
 
 #small-card4 {
@@ -187,6 +196,7 @@ article p {
     border: 5px solid var(--lighttheme);
     min-height: 20vh;
     margin: 50px;
+    box-shadow: 2px 2px 2px var(--darktheme);
 }
 
 .main-card img {
@@ -232,20 +242,18 @@ article ul {
     header {
         flex-direction: column;
         align-items: center;
-        align-content: center;
+
     }
 
     .container {
         flex-direction: column;
     }
 
-    .content {
-        
-    }
 }
 
 
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 768px) {
 
     .subtitle-box {
         flex-direction: column;
@@ -257,10 +265,43 @@ article ul {
 
 @media screen and (max-width: 768px) {
 
+    .subtitle-text {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
     .title {
         flex-direction: column;
         align-items: center;
         align-content: center;
+        width: 100%;
+        border: 3px solid var(--darktheme);
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-card {
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .small-card {
+        flex-direction: column;
+        width: 100%;
+
     }
 }
 
@@ -268,6 +309,7 @@ article ul {
 
     .content {
         flex-direction: column;
+        width: 100%;
 
     }
 }
