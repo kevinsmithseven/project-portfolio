@@ -135,7 +135,7 @@ article p {
 
 .main-card {
     flex: 1 0 90%;
-    background-image: url("./digital-marketing-meeting.jpg");
+    background-image: url("./gigguide-image.png");
     background-size: cover;
     border: 5px solid var(--lighttheme);
     min-height: 40vh;
